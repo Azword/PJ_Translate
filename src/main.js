@@ -220,7 +220,7 @@
      * @param attr -> if (attr) ===> SpecialCase (alt, title, placeholder)
      */
     function requestToGoogleTranslate(e, attr) {
-        var API_KEY = "AIzaSyD8MP5_sq5fPvUMTstgAkgRfst4HQR36Ts";
+        var API_KEY = "";
         var frTxt = (attr) ? $(e).prop(attr) : $(e).text();
         var data = {
             q: frTxt,
